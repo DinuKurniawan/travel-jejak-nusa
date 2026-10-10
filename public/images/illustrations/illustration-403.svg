@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%" fill="none">
+  <!-- Background Canvas -->
+  <circle cx="200" cy="150" r="120" fill="#F3F6F8" />
+  
+  <!-- Traditional Nusantara Split Gate (Candi Bentar Silhouette) -->
+  <path d="M110 220 L110 120 L125 100 L125 140 L140 120 L140 160 L155 140 L155 220 Z" fill="#1F2937" />
+  <path d="M290 220 L290 120 L275 100 L275 140 L260 120 L260 160 L245 140 L245 220 Z" fill="#1F2937" />
+  
+  <!-- Foundation Steps -->
+  <rect x="90" y="220" width="220" height="12" rx="2" fill="#6B7280" />
+  <rect x="75" y="232" width="250" height="14" rx="2" fill="#E5E9ED" />
+
+  <!-- Wooden Crossbar Gate Barrier -->
+  <rect x="135" y="170" width="130" height="12" rx="3" fill="#F4743B" />
+  <rect x="135" y="195" width="130" height="12" rx="3" fill="#DE5E26" />
+  
+  <!-- Large Prominent Padlock -->
+  <g transform="translate(180, 140)">
+    <!-- Shackle -->
+    <path d="M12 22 V14 A10 10 0 0 1 30 14 V22" stroke="#1F2937" stroke-width="5" stroke-linecap="round" fill="none" />
+    <!-- Lock Body -->
+    <rect x="2" y="20" width="38" height="32" rx="6" fill="#F6C945" stroke="#1F2937" stroke-width="2" />
+    <!-- Keyhole -->
+    <circle cx="21" cy="33" r="3.5" fill="#1F2937" />
+    <path d="M21 34 L19 43 H23 Z" fill="#1F2937" />
+  </g>
+
+  <!-- 403 Badge -->
+  <g transform="translate(260, 55)">
+    <rect width="85" height="38" rx="8" fill="#FFFFFF" stroke="#E5E9ED" stroke-width="2" />
+    <text x="42.5" y="26" font-family="'Epilogue', 'Outfit', sans-serif" font-weight="700" font-size="20" fill="#1F2937" text-anchor="middle">403</text>
+  </g>
+
+  <!-- Restrict Indicator Badge -->
+  <g transform="translate(90, 70)">
+    <rect width="70" height="28" rx="14" fill="#FEECEE" stroke="#E5484D" stroke-width="1.5" />
+    <text x="35" y="19" font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#E5484D" text-anchor="middle">TERKUNCI</text>
+  </g>
+</svg>

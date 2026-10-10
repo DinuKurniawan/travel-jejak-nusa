@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%" fill="none">
+  <!-- Background Canvas -->
+  <circle cx="200" cy="150" r="120" fill="#F3F6F8" />
+  
+  <!-- Base Ground -->
+  <ellipse cx="200" cy="235" rx="85" ry="12" fill="#E5E9ED" />
+
+  <!-- Carrier Pigeon / Wind Lines (Nusantara postal delivery) -->
+  <path d="M70 120 Q110 110 150 125" stroke="#0E9AA7" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4" />
+  <path d="M80 140 Q120 130 160 145" stroke="#F4743B" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 4" />
+
+  <!-- Sealed Mail Envelope (Flat Design 2.0) -->
+  <g transform="translate(130, 110)">
+    <!-- Envelope Body -->
+    <rect width="140" height="95" rx="8" fill="#FFFFFF" stroke="#1F2937" stroke-width="2" />
+    
+    <!-- Open / Flap lines -->
+    <polyline points="0,0 70,55 140,0" stroke="#1F2937" stroke-width="2" fill="#F3F6F8" />
+    <line x1="0" y1="95" x2="52" y2="45" stroke="#E5E9ED" stroke-width="2" />
+    <line x1="140" y1="95" x2="88" y2="45" stroke="#E5E9ED" stroke-width="2" />
+
+    <!-- Stamp in corner -->
+    <rect x="110" y="10" width="22" height="26" rx="2" fill="#0E9AA7" />
+    <circle cx="121" cy="23" r="5" fill="#F6C945" />
+
+    <!-- Form checklist peeking out -->
+    <g transform="translate(25, -20)">
+      <rect width="90" height="40" rx="4" fill="#FFFFFF" stroke="#E5E9ED" stroke-width="1.5" />
+      <line x1="15" y1="12" x2="45" y2="12" stroke="#1F2937" stroke-width="3" stroke-linecap="round" />
+      <line x1="15" y1="22" x2="75" y2="22" stroke="#E5E9ED" stroke-width="3" stroke-linecap="round" />
+      <!-- Warning Cross checkmark -->
+      <circle cx="68" cy="12" r="5" fill="#FEECEE" />
+      <line x1="66" y1="10" x2="70" y2="14" stroke="#E5484D" stroke-width="1.5" stroke-linecap="round" />
+      <line x1="70" y1="10" x2="66" y2="14" stroke="#E5484D" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+
+    <!-- Red Alert Badge on Envelope Center -->
+    <circle cx="70" cy="55" r="16" fill="#FEECEE" stroke="#E5484D" stroke-width="2" />
+    <path d="M70 47 V56" stroke="#E5484D" stroke-width="3" stroke-linecap="round" />
+    <circle cx="70" cy="62" r="1.5" fill="#E5484D" />
+  </g>
+
+  <!-- Error Tag on Upper Right -->
+  <g transform="translate(265, 65)">
+    <rect width="80" height="28" rx="14" fill="#FEECEE" stroke="#E5484D" stroke-width="1.5" />
+    <text x="40" y="19" font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#E5484D" text-anchor="middle">CEK FORM</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\User;
+use Illuminate\Database\Seeder;
+
+class UserSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        User::updateOrCreate(['email' => 'admin@jejaknusa.id'], [
+            'name' => 'Admin Jejak Nusa',
+            'password' => 'JejakNusa123',
+            'role' => 'admin',
+            'status' => 'active',
+        ]);
+
+        User::updateOrCreate(['email' => 'user@jejaknusa.id'], [
+            'name' => 'Traveler Nusa',
+            'password' => 'JejakNusa123',
+            'role' => 'user',
+            'status' => 'active',
+        ]);
+    }
+}

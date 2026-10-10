@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%" fill="none">
+  <!-- Background Canvas -->
+  <circle cx="200" cy="150" r="120" fill="#F3F6F8" />
+  
+  <!-- Shadow/Ground Oval (Pure Flat) -->
+  <ellipse cx="200" cy="235" rx="100" ry="12" fill="#E5E9ED" />
+
+  <!-- Travel Suitcase (Koper Petualangan) -->
+  <!-- Handle -->
+  <path d="M175 140 V120 H225 V140" stroke="#1F2937" stroke-width="6" stroke-linecap="round" fill="none" />
+  <rect x="185" y="116" width="30" height="8" rx="2" fill="#6B7280" />
+
+  <!-- Suitcase Main Body -->
+  <rect x="120" y="138" width="160" height="96" rx="12" fill="#0E9AA7" stroke="#0B7A85" stroke-width="2" />
+  <!-- Leather Straps -->
+  <rect x="155" y="138" width="14" height="96" fill="#F4743B" />
+  <rect x="231" y="138" width="14" height="96" fill="#F4743B" />
+  <!-- Metal Corner Protectors -->
+  <rect x="120" y="138" width="16" height="16" rx="3" fill="#F6C945" />
+  <rect x="264" y="138" width="16" height="16" rx="3" fill="#F6C945" />
+  <rect x="120" y="218" width="16" height="16" rx="3" fill="#F6C945" />
+  <rect x="264" y="218" width="16" height="16" rx="3" fill="#F6C945" />
+
+  <!-- Boarding Pass / Ticket Tucked into Suitcase -->
+  <g transform="translate(130, 95) rotate(-12)">
+    <rect width="64" height="34" rx="4" fill="#FFFFFF" stroke="#E5E9ED" stroke-width="1.5" />
+    <rect x="6" y="8" width="32" height="4" rx="2" fill="#0E9AA7" />
+    <rect x="6" y="16" width="20" height="3" rx="1.5" fill="#6B7280" />
+    <line x1="44" y1="4" x2="44" y2="30" stroke="#E5E9ED" stroke-width="1.5" stroke-dasharray="3 3" />
+    <circle cx="53" cy="17" r="4" fill="#F6C945" />
+  </g>
+
+  <!-- Large Front Security Lock on Center -->
+  <g transform="translate(182, 168)">
+    <path d="M9 16 V10 A9 9 0 0 1 27 10 V16" stroke="#1F2937" stroke-width="4" stroke-linecap="round" fill="none" />
+    <rect x="0" y="14" width="36" height="28" rx="6" fill="#F6C945" stroke="#1F2937" stroke-width="2" />
+    <circle cx="18" cy="25" r="3" fill="#1F2937" />
+    <rect x="16.5" y="26" width="3" height="7" fill="#1F2937" />
+  </g>
+
+  <!-- User Avatar Badge in Top Right -->
+  <g transform="translate(255, 60)">
+    <circle cx="25" cy="25" r="22" fill="#FFFFFF" stroke="#E5E9ED" stroke-width="2" />
+    <circle cx="25" cy="19" r="7" fill="#0E9AA7" />
+    <path d="M14 36 C14 30 20 28 25 28 C30 28 36 30 36 36" fill="#0E9AA7" />
+  </g>
+</svg>

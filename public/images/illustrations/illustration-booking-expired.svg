@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%" fill="none">
+  <!-- Background Canvas -->
+  <circle cx="200" cy="150" r="120" fill="#F3F6F8" />
+  
+  <!-- Base Shadow -->
+  <ellipse cx="200" cy="235" rx="80" ry="12" fill="#E5E9ED" />
+
+  <!-- Traditional Nautical Hourglass -->
+  <!-- Wooden Top Plate -->
+  <rect x="150" y="75" width="100" height="12" rx="4" fill="#1F2937" />
+  <rect x="160" y="87" width="80" height="4" fill="#6B7280" />
+
+  <!-- Wooden Bottom Plate -->
+  <rect x="150" y="220" width="100" height="12" rx="4" fill="#1F2937" />
+  <rect x="160" y="216" width="80" height="4" fill="#6B7280" />
+
+  <!-- Connecting Side Pillars -->
+  <rect x="156" y="87" width="6" height="130" rx="2" fill="#1F2937" />
+  <rect x="238" y="87" width="6" height="130" rx="2" fill="#1F2937" />
+
+  <!-- Glass Bulb Shape -->
+  <path d="M168 91 C168 135 190 148 194 153 C190 158 168 171 168 215 H232 C232 171 210 158 206 153 C210 148 232 135 232 91 Z" fill="#FFFFFF" stroke="#0E9AA7" stroke-width="2" />
+  
+  <!-- Top Bulb (Empty - only last trickle) -->
+  <path d="M198 148 L200 155 L202 148 Z" fill="#F6C945" />
+
+  <!-- Bottom Bulb (Filled with Yellow Sand of Time) -->
+  <path d="M174 214 C174 195 188 185 200 185 C212 185 226 195 226 214 Z" fill="#F6C945" />
+
+  <!-- Expired Ticket with Clock Badge -->
+  <g transform="translate(245, 95) rotate(15)">
+    <rect width="70" height="40" rx="6" fill="#FEECEE" stroke="#E5484D" stroke-width="2" />
+    <text x="35" y="25" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#E5484D" text-anchor="middle">EXPIRED</text>
+  </g>
+
+  <!-- Alarm Bell / Clock Accent -->
+  <g transform="translate(95, 110)">
+    <circle cx="22" cy="22" r="20" fill="#FFFFFF" stroke="#F4743B" stroke-width="2" />
+    <!-- Clock Hands at 12:00 -->
+    <line x1="22" y1="22" x2="22" y2="12" stroke="#F4743B" stroke-width="3" stroke-linecap="round" />
+    <line x1="22" y1="22" x2="28" y2="22" stroke="#1F2937" stroke-width="2" stroke-linecap="round" />
+    <circle cx="22" cy="22" r="3" fill="#1F2937" />
+  </g>
+</svg>

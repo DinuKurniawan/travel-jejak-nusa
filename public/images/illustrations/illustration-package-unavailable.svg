@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%" fill="none">
+  <!-- Background Canvas -->
+  <circle cx="200" cy="150" r="120" fill="#F3F6F8" />
+  
+  <!-- Beach Sand Horizon -->
+  <ellipse cx="200" cy="230" rx="110" ry="14" fill="#FEF9E7" stroke="#F6C945" stroke-width="1.5" />
+
+  <!-- Palm Frond Accent on the Side -->
+  <path d="M70 180 Q100 130 135 150 Q100 165 70 180" fill="#2EB67D" />
+  <path d="M70 180 Q85 110 115 130 Q90 150 70 180" fill="#249666" />
+
+  <!-- Open Suitcase (Empty Interior) -->
+  <!-- Bottom Shell -->
+  <rect x="130" y="170" width="140" height="55" rx="8" fill="#FFFFFF" stroke="#6B7280" stroke-width="2" />
+  <!-- Lining / Empty Cavity -->
+  <rect x="138" y="178" width="124" height="40" rx="4" fill="#F3F6F8" stroke="#E5E9ED" stroke-width="1.5" />
+  <!-- Open Top Shell (Folded back) -->
+  <polygon points="130,170 145,115 255,115 270,170" fill="#0E9AA7" stroke="#0B7A85" stroke-width="2" />
+  <rect x="180" y="105" width="40" height="10" rx="3" fill="#1F2937" />
+
+  <!-- "KUOTA HABIS" / "PENUH" Stamped Badge -->
+  <g transform="translate(195, 145) rotate(-10)">
+    <rect width="110" height="34" rx="6" fill="#FEECEE" stroke="#E5484D" stroke-width="2" />
+    <text x="55" y="23" font-family="'Inter', sans-serif" font-weight="700" font-size="12" fill="#E5484D" text-anchor="middle" letter-spacing="0.5">HABIS TERPESAN</text>
+  </g>
+
+  <!-- Sad Compass / Search Indicator -->
+  <g transform="translate(265, 75)">
+    <circle cx="22" cy="22" r="20" fill="#FFFFFF" stroke="#E5E9ED" stroke-width="2" />
+    <!-- Empty Box / Bag icon -->
+    <path d="M14 17 L22 13 L30 17 L22 21 Z" fill="#F4743B" />
+    <path d="M14 17 V26 L22 30 V21 Z" fill="#DE5E26" />
+    <path d="M30 17 V26 L22 30 V21 Z" fill="#F4743B" />
+  </g>
+</svg>
